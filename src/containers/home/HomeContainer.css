@@ -1,0 +1,25 @@
+.home_container {
+  height: 100%;
+  width: 100%;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.home_content {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+
+@media screen and (max-width: 800px) {
+  .home_container {
+    padding-top: 20rem;
+
+    display: flex;
+    justify-content: start;
+    align-items: start;
+  }
+}
