@@ -88,6 +88,10 @@ input[type="number"] {
     bottom: -120%;
     width: 60%;
   }
+
+  .input_box > input {
+    font-size: 3.8rem;
+  }
 }
 
 @media screen and (max-width: 400px) {
